@@ -24,7 +24,7 @@ export default function login() {
       Email: email,
       Password: password,
     };
-    const response = await fetch("poke-crypto.vercel.app/api/login", {
+    const response = await fetch("https://poke-crypto.vercel.app/api/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

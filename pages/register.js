@@ -20,7 +20,7 @@ export default function register() {
       Password: password,
       Pokemons: [],
     };
-    const response = await fetch("poke-crypto.vercel.app/api/Register", {
+    const response = await fetch("https://poke-crypto.vercel.app/api/Register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
