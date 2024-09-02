@@ -32,20 +32,24 @@ export default function Home({ data }) {
 
   return (
     <>
-
       <Navbar userData={userData} />
       <div>
         <header className="jumbotron text-center d-flex flex-column justify-content-center align-items-center" style={{ backgroundImage: "url('/Imagenes/pokebosque.png')", backgroundRepeat: "no-repeat", backgroundPosition: "center", backgroundSize: "cover", height: "100vh" }}>
           <h1 className="display-4">Welcome to PokeCrypto {userData?.Name}</h1>
           <p className="lead">Pokémon Crypto Game in Augmented Reality</p>
-          {userData ? <>            
-          <a className="btn btn-primary btn-lg" href="buy-nfts" role="button">
-            Explore NFTs
-          </a></> : <>            
-          <a className="btn btn-primary btn-lg" href="login" role="button">
-            Explore NFTs
-          </a></>}
-
+          {userData ? (
+            <>
+              <a className="btn btn-primary btn-lg" href="buy-nfts" role="button">
+                Explore NFTs
+              </a>
+            </>
+          ) : (
+            <>
+              <a className="btn btn-primary btn-lg" href="login" role="button">
+                Explore NFTs
+              </a>
+            </>
+          )}
         </header>
         <section id="features" className="section">
           <div className="container">
@@ -70,14 +74,14 @@ export default function Home({ data }) {
             <div className="row">
               <div className="col-md-4">
                 <div className="text-center">
-                  <img src="https://via.placeholder.com/400x300" alt="Step 1" className="img-fluid" />
+                  <img src="/Imagenes/pokemonosodeanteojos.png" alt="Step 1" className="img-fluid" />
                   <h3>Step 1</h3>
                   <p>Description of step 1. Explanation of the initial phase of the process, including any necessary actions from the user.</p>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="text-center">
-                  <img src="https://via.placeholder.com/400x300" alt="Step 2" className="img-fluid" />
+                  <img src="/Imagenes/pokemonosodeanteojos.png" alt="Step 2" className="img-fluid" />
                   <h3>Step 2</h3>
                   <p>Description of step 2. Details on the subsequent steps and what the user should expect during this phase.</p>
                 </div>
@@ -126,12 +130,45 @@ export default function Home({ data }) {
             </div>
           </div>
         </section>
+        <section id="Sponsors" className="section" style={{ color: "black" }}>
+          <div className="container">
+            <h2 className="text-center">Sponsors</h2>
+            <div className="row d-flex flex-row justify-content-center align-items-center">
+              <div className="col-md-4">
+                <img src="/Imagenes/unity.png" alt="User 1" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              </div>
+              <div className="col-md-4">
+                <img src="/Imagenes/unity.png" alt="User 2" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              </div>
+              <div className="col-md-4">
+                <img src="/Imagenes/unity.png" alt="User 3" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              </div>
+              <div className="col-md-4">
+                <img src="/Imagenes/unity.png" alt="User 1" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              </div>
+              <div className="col-md-4">
+                <img src="/Imagenes/unity.png" alt="User 2" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              </div>
+              <div className="col-md-4">
+                <img src="/Imagenes/unity.png" alt="User 3" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              </div>
+              <div className="col-md-4">
+                <img src="/Imagenes/unity.png" alt="User 1" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              </div>
+              <div className="col-md-4">
+                <img src="/Imagenes/unity.png" alt="User 2" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              </div>
+              <div className="col-md-4">
+                <img src="/Imagenes/unity.png" alt="User 3" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              </div>
+            </div>
+          </div>
+        </section>
 
         <footer className="footer text-center" style={{ color: "black" }}>
           <p>© 2024 PokeCrypto. All rights reserved.</p>
         </footer>
       </div>
-
     </>
   );
 }
