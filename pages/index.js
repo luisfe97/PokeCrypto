@@ -62,12 +62,13 @@ export default function Home({ data }) {
             <h2 className="text-center mb-5">Features</h2>
             <div className="row">
               <div className="col-md-6 feature-content">
-                <img src="/Imagenes/pokemonosodeanteojos.png" className="feature-img w-100" alt="Feature Image" />
+                <img src="/Imagenes/d81fcd17-725f-4425-825c-5108abf474d8.png" className="feature-img w-100" alt="Feature Image" />
               </div>
               <div className="col-md-6 feature-content">
                 <div className="feature-text" style={{ color: "black" }}>
-                  <h3>Feature Title</h3>
-                  <p>Description of the feature. This section provides a detailed explanation of what makes this feature special and how it benefits the user. You can include any important details or advantages here to highlight the value of this feature.</p>
+                  <h3>Pokecrypto</h3>
+                  <p>Explora, Muévete y Gana en el Mundo Real
+                  ¡Bienvenido a una nueva era de juegos que transforman tu mundo! Pokecrypto fusiona la magia de la realidad aumentada con la riqueza cultural de Colombia y el poder de la tecnología blockchain.</p>
                 </div>
               </div>
             </div>
@@ -76,27 +77,27 @@ export default function Home({ data }) {
 
         <section id="how-it-works" className="section bg-light" style={{ color: "black" }}>
           <div className="container">
-            <h2 className="text-center">How It Works</h2>
+            <h2 className="text-center">Cómo Funciona</h2>
             <div className="row">
               <div className="col-md-4">
                 <div className="text-center">
-                  <img src="/Imagenes/pokemonosodeanteojos.png" alt="Step 1" className="img-fluid" />
+                  <img src="/Imagenes/0ceb6437-4021-414f-9ec1-a9d2577398b8.png" alt="Step 1" className="img-fluid" />
                   <h3>Step 1</h3>
-                  <p>Description of step 1. Explanation of the initial phase of the process, including any necessary actions from the user.</p>
+                  <p>Explora tu Entorno</p>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="text-center">
-                  <img src="/Imagenes/pokemonosodeanteojos.png" alt="Step 2" className="img-fluid" />
+                  <img src="/Imagenes/1df696c1-6f35-4ad9-8188-bc1e578d0c66.png" alt="Step 2" className="img-fluid" />
                   <h3>Step 2</h3>
-                  <p>Description of step 2. Details on the subsequent steps and what the user should expect during this phase.</p>
+                  <p>Captura y Colecciona</p>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="text-center">
-                  <img src="https://via.placeholder.com/400x300" alt="Step 3" className="img-fluid" />
+                  <img src="/Imagenes/94b8d69b-6c56-4d83-aba4-777853fc2986.png" alt="Step 3" className="img-fluid" />
                   <h3>Step 3</h3>
-                  <p>Description of step 3. Final steps to complete the process and what the user should do to finish.</p>
+                  <p>Compite y Colabora</p>
                 </div>
               </div>
             </div>

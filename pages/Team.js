@@ -42,21 +42,21 @@ export default function buy() {
                   <div className="card mb-4 w-100">
                     <img src="https://via.placeholder.com/150" className="card-img-top" alt="NFT" />
                     <div className="card-body">
-                      <h5 className="card-title">{item.name}</h5>
+                      <h5 className="card-title">{item?.name}</h5>
                       <p className="card-text">
                         Stats:
                         <br />
-                        HP: {item.baseStats.HP}
+                        HP: {item?.baseStats?.HP}
                         <br />
-                        Attack: {item.baseStats.Attack}
+                        Attack: {item?.baseStats?.Attack}
                         <br />
-                        Defense: {item.baseStats.Defense}
+                        Defense: {item?.baseStats?.Defense}
                         <br />
-                        SpAttack: {item.baseStats.SpAttack}
+                        SpAttack: {item?.baseStats?.SpAttack}
                         <br />
-                        SpDefense: {item.baseStats.SpDefense}
+                        SpDefense: {item?.baseStats?.SpDefense}
                         <br />
-                        Speed: {item.baseStats.Speed}
+                        Speed: {item?.baseStats?.Speed}
                       </p>
                     </div>
                   </div>
