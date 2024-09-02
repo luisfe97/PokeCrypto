@@ -42,11 +42,17 @@ export default function Home({ data }) {
               <a className="btn btn-primary btn-lg" href="buy-nfts" role="button">
                 Explore NFTs
               </a>
+              <a className="btn btn-success btn-lg mt-3" href="/PokeCrypto.apk" download>
+                Download APK
+              </a>
             </>
           ) : (
             <>
               <a className="btn btn-primary btn-lg" href="login" role="button">
                 Explore NFTs
+              </a>
+              <a className="btn btn-success btn-lg mt-3" href="/PokeCrypto.apk" download>
+                Download APK
               </a>
             </>
           )}
@@ -134,32 +140,32 @@ export default function Home({ data }) {
           <div className="container">
             <h2 className="text-center">Sponsors</h2>
             <div className="row d-flex flex-row justify-content-center align-items-center">
-              <div className="col-md-4">
-                <img src="/Imagenes/unity.png" alt="User 1" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              <div className="col-md-4 d-flex flex-row justify-content-center align-items-center">
+                <img src="/Imagenes/avalanche.png" alt="User 1" style={{ with: "100px", height: "100px" }} />
               </div>
-              <div className="col-md-4">
-                <img src="/Imagenes/unity.png" alt="User 2" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              <div className="col-md-4 d-flex flex-row justify-content-center align-items-center">
+                <img src="/Imagenes/base.png" alt="User 2" style={{ with: "100px", height: "100px" }} />
               </div>
-              <div className="col-md-4">
-                <img src="/Imagenes/unity.png" alt="User 3" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              <div className="col-md-4 d-flex flex-row justify-content-center align-items-center">
+                <img src="/Imagenes/polygon.png" alt="User 3" style={{ with: "100px", height: "100px" }} />
               </div>
-              <div className="col-md-4">
-                <img src="/Imagenes/unity.png" alt="User 1" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              <div className="col-md-4 d-flex flex-row justify-content-center align-items-center">
+                <img src="/Imagenes/teleporter.png" alt="User 1" style={{ with: "100px", height: "100px" }} />
               </div>
-              <div className="col-md-4">
-                <img src="/Imagenes/unity.png" alt="User 2" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              <div className="col-md-4 d-flex flex-row justify-content-center align-items-center">
+                <img src="/Imagenes/axelar.png" alt="User 2" style={{ with: "100px", height: "100px" }} />
               </div>
-              <div className="col-md-4">
-                <img src="/Imagenes/unity.png" alt="User 3" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              <div className="col-md-4 d-flex flex-row justify-content-center align-items-center">
+                <img src="/Imagenes/unity.png" alt="User 3" style={{ with: "100px", height: "100px" }} />
               </div>
-              <div className="col-md-4">
-                <img src="/Imagenes/unity.png" alt="User 1" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              <div className="col-md-4 d-flex flex-row justify-content-center align-items-center">
+                <img src="/Imagenes/next.png" alt="User 1" style={{ with: "100px", height: "100px" }} />
               </div>
-              <div className="col-md-4">
-                <img src="/Imagenes/unity.png" alt="User 2" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              <div className="col-md-4 d-flex flex-row justify-content-center align-items-center">
+                <img src="/Imagenes/maya.png" alt="User 2" style={{ with: "100px", height: "100px" }} />
               </div>
-              <div className="col-md-4">
-                <img src="/Imagenes/unity.png" alt="User 3" className="rounded-circle" style={{with:"100px", height:"100px" }} />
+              <div className="col-md-4 d-flex flex-row justify-content-center align-items-center">
+                <img src="/Imagenes/mongo.png" alt="User 3" style={{ with: "100px", height: "100px" }} />
               </div>
             </div>
           </div>
