@@ -229,16 +229,16 @@ export default function buy() {
                     alt="NFT"
                   />
                   <div className="card-body">
-                    <h5 className="card-title">Charmander</h5>
+                    <h5 className="card-title">trikibri</h5>
                     <p className="card-text">Description of the NFT.</p>
                     <a
                       href="#"
                       className="btn btn-primary"
                       onClick={() => {
                         mintNFT1({
-                          id: 4,
-                          name: "Charmander",
-                          type: ["Fire"],
+                          id: 1,
+                          name: "trikibri",
+                          type: ["Fly"],
                           baseStats: {
                             HP: 39,
                             Attack: 52,
@@ -263,9 +263,10 @@ export default function buy() {
                   <div className="card-body">
                     <h5 className="card-title">Bulbasaur</h5>
                     <p className="card-text">Description of the NFT.</p>
-                    <a
+                    <button
                       href="#"
                       className="btn btn-primary"
+                      disabled
                       onClick={() => {
                         mintNFT2({
                           id: 1,
@@ -281,7 +282,7 @@ export default function buy() {
                           },
                         });
                       }}
-                    ></a>
+                    ></button>
                   </div>
                 </div>
               </div>
@@ -295,9 +296,10 @@ export default function buy() {
                   <div className="card-body">
                     <h5 className="card-title">Squirtle</h5>
                     <p className="card-text">Description of the NFT.</p>
-                    <a
+                    <button
                       href="#"
                       className="btn btn-primary"
+                      disabled
                       onClick={() => {
                         mintNFT3({
                           id: 7,
@@ -313,7 +315,7 @@ export default function buy() {
                           },
                         });
                       }}
-                    ></a>
+                    ></button>
                   </div>
                 </div>
               </div>
